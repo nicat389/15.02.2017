@@ -7,9 +7,7 @@ html,body, .mainFooterItem ul{
 }
 .clearFix{
 	clear:both;
-}
-.verticalSpacer{
-	height:10px;
+	margin-top: 10px;
 }
 .header{
 	height:100px;
@@ -36,13 +34,11 @@ html,body, .mainFooterItem ul{
 }
 .navigation ul li{
 	display:inline-block;
-	list-style: none;
 	color:white;
 	text-transform: uppercase;
 }
 .newsItem{
 	width:calc((100% - 40px)/3);
-	
 	padding:10px;
 }
 .newsItem, .mainFooterItem, .headLinesItem {
@@ -71,8 +67,7 @@ html,body, .mainFooterItem ul{
 	width:95%;
 }
 .mainFooterItem li{
-
-	border-bottom:1px solid gray;
+border-bottom:1px solid gray;
 }
 .navigation ul li, .mainFooterItem li {
 		list-style: none;
